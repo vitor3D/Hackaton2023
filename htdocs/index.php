@@ -18,10 +18,16 @@
 </head>
 <body>
 <header>
-      <h1>Integrantes do Grupo</h1>
+        <div class="logo">
+            <img src="scr\logo\LogoPretoGif.gif" alt=""> <br>
+            <img  class="seta" src="scr\img\swipeDown.gif" alt="">
+        </div>
+
     </header>
-<div class="integrante">
-      <img src="\scr\img\Lendro.jpg" alt="Foto do Integrante 1">
+       
+<div class="flex-container">
+    <div class="integrante">
+    <img src="\scr\img\Lendro.jpg" alt="Foto do Integrante 1">
       <h3>Leandro Conceição</h3>
     </div>
     
@@ -47,7 +53,7 @@
     
     <div class="integrante">
       <img src="scr\img\Erico.jpg" alt="Foto do Integrante 6">
-      <h3>Grico Silva</h3>
+      <h3>Érico Silva</h3>
     </div>
     
     <div class="integrante">
@@ -64,6 +70,7 @@
         <img src="scr\img\vitor.jpg" alt="Foto do Integrante 9">
         <h3>Vitor Alexandre</h3>
     </div>
+</div>
 
 <footer>
   <p>Grupo - Todos os direitos reservados</p>
